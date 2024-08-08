@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Home - Parking Solutions</title>
+    <link rel="stylesheet" href="homestyles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Available Slots</h1>
+        <div class="form-group">
+            <label for="location">Enter the address:</label>
+            <input type="text" id="location" placeholder="Enter location">
+        </div>
+        <div class="form-group">
+            <label for="vehicleType">Select the type of vehicle:</label>
+            <select id="vehicleType">
+                <option value="Car">Car</option>
+                <option value="Bike">Bike</option>
+                <option value="Truck">Truck</option>
+            </select>
+        </div>
+        <button onclick="searchSlots()">Search Slots</button>
+
+        <div id="slotsList" class="slots-list">
+            <!-- Dynamic list of slots will appear here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+[
+  {
+    "clientName": "Vignesh",
+    "location": "Kukatpally, Hyderabad",
+    "vehicleType": "Car",
+    "price": "150Rs./hr",
+    "slotImage": "slot1.jpg",
+    "startTime": "2024-08-09T08:00",
+    "endTime": "2024-08-09T18:00"
+  },
+  {
+    "clientName": "Srilatha",
+    "location": "KPHB, Hyderabad",
+    "vehicleType": "Bike",
+    "price": "50Rs./hr",
+    "slotImage": "https://www.shutterstock.com/image-photo/taipei-taiwan-4-march-2022-260nw-2133040001.jpg",
+    "startTime": "2024-08-09T09:00",
+    "endTime": "2024-08-09T20:00"
+  },
+  {
+    "clientName": "Avinash",
+    "location": "khammam",
+    "vehicleType": "Car",
+    "price": "250Rs./hr",
+    "slotImage": "https://akaatent.com/wp-content/uploads/2017/05/car-parking-shade-bottom-support-perspective-view.png",
+    "startTime": "2024-08-08T03:10",
+    "endTime": "2024-08-16T02:10"
+  },
+  {
+    "clientName": "Chandu",
+    "location": "Hyderabad",
+    "vehicleType": "Car",
+    "price": "200Rs./hr",
+    "slotImage": "https://akaatent.com/wp-content/uploads/2017/05/car-parking-shade-bottom-support-perspective-view.png",
+    "startTime": "2024-08-08T03:10",
+    "endTime": "2024-08-16T02:10"
+  },
+  {
+    "clientName": "Hari",
+    "location": "Kompally",
+    "vehicleType": "Bike",
+    "price": "100Rs./hr",
+    "slotImage": "https://www.shutterstock.com/image-photo/taipei-taiwan-4-march-2022-260nw-2133040001.jpg",
+    "startTime": "2024-08-09T08:00",
+    "endTime": "2024-08-09T18:00"
+  },
+  {
+    "clientName": "John Doe",
+    "location": "456 Maple Ave",
+    "vehicleType": "Bike",
+    "price": "$8/hr",
+    "slotImage": "https://www.shutterstock.com/image-photo/taipei-taiwan-4-march-2022-260nw-2133040001.jpg",
+    "startTime": "2024-08-09T09:00",
+    "endTime": "2024-08-09T20:00"
+  },
+  {
+    "clientName": "Avinash",
+    "location": "khammam, Ts",
+    "vehicleType": "Bike",
+    "price": "80Rs./hr",
+    "slotImage": "https://www.shutterstock.com/image-photo/taipei-taiwan-4-march-2022-260nw-2133040001.jpg",
+    "startTime": "2024-08-08T03:10",
+    "endTime": "2024-08-16T02:10"
+  },
+  {
+    "clientName": "Rakesh",
+    "location": "Hyderabad",
+    "vehicleType": "Car",
+    "price": "180Rs./hr",
+    "slotImage": "https://akaatent.com/wp-content/uploads/2017/05/car-parking-shade-bottom-support-perspective-view.png",
+    "startTime": "2024-08-08T03:10",
+    "endTime": "2024-08-16T02:10"
+  }
+]
