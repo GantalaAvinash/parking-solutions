@@ -61,6 +61,10 @@ function loadSlotDetails() {
 }
 
 function confirmBooking() {
+
+    const params = new URLSearchParams(window.location.search);
+    const clientName = params.get('client');
+
     const startTime = document.getElementById('startTime').value;
     const endTime = document.getElementById('endTime').value;
     
@@ -68,8 +72,33 @@ function confirmBooking() {
         alert('Please select both start and end times.');
         return;
     }
-    
     alert(`Booking confirmed for ${startTime} to ${endTime}.`);
+
+    fetchSlots(data => {
+        const slot = data.find(slot => slot.clientName === clientName);
+
+        if (slot) {
+            const slotBooking = document.getElementById('slotBooking');
+            slotBooking.innerHTML = `
+                <p><strong>${slot.clientName}</strong></p>
+                <p><a href="https://www.google.com/maps/search/?api=1&query=${slot.location}" target="_blank">${slot.location}</a></p>
+                <p>Price: ${slot.price}</p>
+                <p>Start Time: ${startTime}</p>
+                <p>End Time: ${endTime}</p>
+            `;
+            const booking = {
+                clientName: slot.clientName,
+                location: slot.location,
+                vehicleType: slot.vehicleType,
+                price: slot.price,
+                startTime,
+                endTime
+            };
+            saveBooking(booking);
+        } else {
+            alert('Slot details not found.');
+        }
+    });
 }
 
 
