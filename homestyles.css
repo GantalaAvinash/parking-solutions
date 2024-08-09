@@ -58,6 +58,18 @@ button:hover {
     margin-top: 20px;
 }
 
+.slot-book{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #0e0d0d;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
 .slot-item {
     padding: 10px;
     border: 1px solid #ccc;
